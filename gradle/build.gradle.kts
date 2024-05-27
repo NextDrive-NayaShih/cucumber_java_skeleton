@@ -5,10 +5,10 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.2"))
     testImplementation(platform("io.cucumber:cucumber-bom:7.18.0"))
 
-    testImplementation("io.cucumber:cucumber-java")
-    testImplementation("io.cucumber:cucumber-junit-platform-engine")
+    testImplementation("io.cucumber:cucumber-java:7.8.1")
+    testImplementation("io.cucumber:cucumber-junit-platform-engine:7.8.1")
     testImplementation("org.junit.platform:junit-platform-suite")
-    testImplementation("org.junit.jupiter:junit-jupiter")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
 }
 
 repositories {
